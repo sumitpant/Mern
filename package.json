@@ -5,14 +5,14 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"cd ../dashboard && npm run build",
-    "install-client":" cd ../dashboard && npm install",
-    "heroku-postbuild":"npm run install-client && npm run build",
     "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "mongoose": "^5.11.8"
+  },
+  "engines": {
+    "node": "12.16.3"
   }
 }
